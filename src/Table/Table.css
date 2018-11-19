@@ -1,0 +1,14 @@
+.table {
+  height: 100%;
+  max-width: 30rem;
+  padding: 2rem;
+  background: #218c74;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.table-middle {
+  height: 0.5rem;
+  width: 100%;
+  background: white;
+}
