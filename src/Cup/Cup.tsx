@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Cup.css";
-import cup from "./solocup.svg";
+import cup from "./red-cup-xl.svg";
 
 export interface CupProps {
   player: string;
