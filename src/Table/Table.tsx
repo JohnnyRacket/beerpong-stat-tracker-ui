@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Table.css";
 import TeamSide from "../TeamSide/TeamSide";
 import Player from "../Player/Player";
+import PlayerIcon from "../PlayerIcon/PlayerIcon";
 
 export interface TableProps {
   players: Player[];
@@ -18,7 +19,16 @@ export class Table extends React.Component<TableProps, TableState> {
     return (
       <div className="table">
         <TeamSide players={sideA} side={false} />
-        <div className="table-middle" />
+        <div className="table-middle">
+          <div className="player-icon-wrapper player-icon-wrapper__side-a">
+            <PlayerIcon name="John H" active={true} />
+            <PlayerIcon name="Stephen D" active={false} />
+          </div>
+          <div className="player-icon-wrapper player-icon-wrapper__side-b">
+            <PlayerIcon name="Colin S" active={false} />
+            <PlayerIcon name="Nick A" active={false} />
+          </div>
+        </div>
         <TeamSide players={sideB} side={true} />
       </div>
     );

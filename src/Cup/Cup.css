@@ -1,8 +1,17 @@
 .cup {
+    position: relative;
     width: 25%;
-
 }
 
 .cup-img{
     width: 100%;
+}
+
+.cup-text{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 2rem;
 }

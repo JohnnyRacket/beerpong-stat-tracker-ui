@@ -1,21 +1,39 @@
 .table {
   width: 100%;
-  padding: 2rem;
   background: #218c74;
   box-sizing: border-box;
   margin: 0 auto;
 }
 
 .table-middle {
-  height: 0.5rem;
+  position: absolute;
+  margin-top: -40%;
+  box-sizing: border-box;
   width: 100%;
-  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.player-icon-wrapper {
+  width: 25%;
+  padding: 1rem;
+  border-radius: 4rem;
+  z-index: 10;
+}
+.player-icon-wrapper__side-a{
+    height: 100%;
+    background: #218c74;
+}
+
+.player-icon-wrapper__side-b{
+    margin-top: 15%;
+    background: #319c84;
+}
 /* @media only screen and (min-width: 1025px) {
     .table {
         max-width: 100%;
         transform: rotateZ(90deg);
-    }
+    }#db2b2b
 
 } */

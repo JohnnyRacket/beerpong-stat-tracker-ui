@@ -1,0 +1,18 @@
+.player-icon {
+  width: 100%;
+ 
+}
+
+.player-icon-text-wrapper{
+  position: relative;
+}
+
+.player-icon-text{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 2rem;
+  color: grey;
+}

@@ -11,11 +11,11 @@ export interface TeamSideProps {
 const TeamSide = (props: TeamSideProps) => (
   <div
     className="team-side"
-    style={props.side ? { transform: "rotateX(180deg)" } : {}}
+    style={props.side ? { transform: "rotateX(180deg)", background: '#319c84' } : {}}
   >
     <div className="cup-row" style={props.side ? { transform: "rotateX(180deg)", zIndex: 4  } : {}}>
       <Cup player="" />
-      <Cup player="" />
+      <Cup player="JH" />
       <Cup player="" />
       <Cup player="" />
     </div>
