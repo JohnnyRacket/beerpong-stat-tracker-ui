@@ -30,10 +30,20 @@
     margin-top: 15%;
     background: #319c84;
 }
-/* @media only screen and (min-width: 1025px) {
-    .table {
-        max-width: 100%;
-        transform: rotateZ(90deg);
-    }#db2b2b
 
-} */
+.team-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20% 2rem;
+  box-sizing: border-box;
+}
+
+.cup-row {
+  margin-top: -15%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
