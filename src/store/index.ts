@@ -3,4 +3,7 @@ import { combineReducers } from "redux";
 import cups from './cups/reducer';
 
 
-export default createStore(combineReducers({cups}));
+export interface ApplicationState {
+
+}
+//export default createStore(combineReducers({ cups }));

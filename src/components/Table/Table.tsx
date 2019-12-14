@@ -8,7 +8,7 @@ export interface TableProps {
   players: Player[];
 }
 
-export interface TableState {}
+export interface TableState { }
 
 export class Table extends React.Component<TableProps, TableState> {
   render() {
@@ -19,7 +19,7 @@ export class Table extends React.Component<TableProps, TableState> {
 
         <div
           className="team-side"
-          style={{background: '#218c74' }}
+          style={{ background: '#218c74' }}
         >
           <div className="cup-row" >
             <Cup player="" />
@@ -47,7 +47,7 @@ export class Table extends React.Component<TableProps, TableState> {
             <PlayerIcon name="John H" active={true} />
             <PlayerIcon name="Stephen D" active={false} />
           </div>
-          <div style={{zIndex: 5, color: 'white', fontWeight: 'bold', fontSize: '2rem', alignSelf: 'center'}}>vs.</div>
+          <div style={{ zIndex: 5, marginBottom: '8px', color: 'white', fontWeight: 'bold', fontSize: '2rem', alignSelf: 'center' }}>vs.</div>
           <div className="player-icon-wrapper player-icon-wrapper__side-b">
             <PlayerIcon name="Colin S" active={false} />
             <PlayerIcon name="Nick A" active={false} />
@@ -59,22 +59,22 @@ export class Table extends React.Component<TableProps, TableState> {
           className="team-side"
           style={{ transform: "rotateX(180deg)", background: '#319c84' }}
         >
-          <div className="cup-row" style={{transform: "rotateX(180deg)", zIndex: 4  }}>
+          <div className="cup-row" style={{ transform: "rotateX(180deg)", zIndex: 4 }}>
             <Cup player="" />
             <Cup player="JH" />
             <Cup player="" />
             <Cup player="" />
           </div>
-          <div className="cup-row" style={{ transform: "rotateX(180deg)", zIndex: 3  }}>
+          <div className="cup-row" style={{ transform: "rotateX(180deg)", zIndex: 3 }}>
             <Cup player="" />
             <Cup player="" />
             <Cup player="" />
           </div>
-          <div className="cup-row"style={{ transform: "rotateX(180deg)", zIndex: 2  }}>
+          <div className="cup-row" style={{ transform: "rotateX(180deg)", zIndex: 2 }}>
             <Cup player="JH" />
             <Cup player="" />
           </div>
-          <div className="cup-row"style={{ transform: "rotateX(180deg)", zIndex: 1 }}>
+          <div className="cup-row" style={{ transform: "rotateX(180deg)", zIndex: 1 }}>
             <Cup player="" />
           </div>
         </div>
