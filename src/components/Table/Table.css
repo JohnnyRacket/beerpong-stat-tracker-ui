@@ -7,6 +7,8 @@
     flex-direction: column;
     min-height: 100%;
     justify-content: center;
+    background: linear-gradient(to bottom, rgb(33, 140, 116),rgb(33, 140, 116) 50%, rgb(49, 156, 132) 50%, rgb(49, 156, 132) 100%); /* W3C */
+
 }
 
 .table-middle {
@@ -39,8 +41,6 @@
   width: 100%;
   padding: 20% 2rem;
   box-sizing: border-box;
-  /* this is suspect ccs, too vertical of a screen will make the cups spread a lot, but looks good on most tested devices */
-  flex: 1;
 }
 
 .cup-row {
